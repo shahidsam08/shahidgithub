@@ -1,0 +1,104 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 80px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+#nav h4 {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+#nav i {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 550;
+}
+#center {
+  width: 100%;
+  padding: 40px 30px;
+}
+#center h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+#center-in {
+  height: 200px;
+  width: 100%;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#center-in p {
+  font-size: 22px;
+  font-weight: 600px;
+  line-height: 32px;
+}
+#right {
+  width: 20%;
+}
+.elem {
+  padding: 10px 0px;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.elem i {
+  font-size: 20px;
+  font-weight: 30;
+  opacity: 0;
+}
+.elem a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.elem:hover i {
+  opacity: 1;
+}
+.elem:hover {
+  background-color: rgb(233, 19, 40);
+}
+.elem:hover a {
+  text-decoration: underline;
+}
+
+#bottom {
+  height: 40%;
+  width: 100%;
+  background-image: url(https://www.shutterstock.com/image-photo/high-fashion-afroamerican-model-black-600nw-1638120652.jpg);
+  background-size: cover;
+  background-position: top;
+}
+/* this is the comment tag */
