@@ -93,6 +93,7 @@ body {
 .elem:hover a {
   text-decoration: underline;
 }
+/* this is the example of the  comment in css */
 
 #bottom {
   height: 40%;
